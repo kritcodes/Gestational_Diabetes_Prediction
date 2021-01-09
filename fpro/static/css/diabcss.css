@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html { width: 100%; height:100%; overflow:hidden; }
+
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Helvetica';
+	background:  rgb(255, 139, 207);;
+	color: #fff;
+	font-size: 24px;
+	text-align:center;
+	letter-spacing:1.4px;
+	background: url("static\css\imgdiab.jpg") no-repeat center;
+
+}
+.left{
+	background: url("static\css\imgdiab.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+.inputdata { 
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:400px;
+	height:400px;
+}
+
+.inputdata h1 { color: #fff; text-shadow: 0 0 10px rgba(0, 0, 0, 0.973); letter-spacing:1px; text-align:center; }
+
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgb(8, 8, 8);
+	border: 1px solid rgba(0, 0, 0, 0.685);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(19, 1, 1, 0.938), 0 1px 1px rgb(31, 7, 7);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+button{
+	width: 45rem;
+    height: 5rem;
+    background-color: #c29525;
+    color: #fff;
+    border: none;
+    margin-top: 2rem;
+    font-family: "Muli", serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
